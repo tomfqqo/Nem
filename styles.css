@@ -1,14 +1,32 @@
 body {
-    background-color: lightblue;
+    background-color: #FFC0CB; /* Rose clair */
     font-family: Arial, sans-serif;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centre verticalement */
+    margin: 0;
 }
 
 h1 {
     color: darkblue;
+    font-size: 36px;
 }
 
 p {
     color: darkred;
     font-size: 20px;
+}
+
+/* Ajout du lapin et du cœur */
+.emoji {
+    font-size: 50px;
+    margin: 10px;
+}
+
+img {
+    width: 150px; /* Taille de l’image du lapin */
+    margin-top: 20px;
 }

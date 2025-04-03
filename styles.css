@@ -1,13 +1,15 @@
 body {
     background-color: #FFC0CB; /* Rose clair */
     font-family: Arial, sans-serif;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 40vh; /* Centre verticalement */
+    text-align: center; /* Centre le texte et les éléments inline */
     margin: 0;
+    padding: 20px;
+}
+
+img {
+    display: block; /* Permet d'utiliser margin: auto */
+    margin: 20px auto; /* Centre l'image horizontalement + marge verticale */
+    max-width: 100%; /* Responsive */
 }
 
 h1 {
@@ -20,13 +22,3 @@ p {
     font-size: 20px;
 }
 
-/* Ajout du lapin et du cœur */
-.emoji {
-    font-size: 50px;
-    margin: 10px;
-}
-
-img {
-    width: 150px; /* Taille de l’image du lapin */
-    margin-top: 20px;
-}

@@ -6,7 +6,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh; /* Centre verticalement */
+    height: 40vh; /* Centre verticalement */
     margin: 0;
 }
 
